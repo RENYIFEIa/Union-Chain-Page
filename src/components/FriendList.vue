@@ -18,8 +18,16 @@
 </template>
 
 <script setup>
-import { ref } from "vue";
-import Lists from "/public/list.json";
+import { ref } from 'vue'
+import axios from 'axios'
+const Lists = ref([])
+axios({
+  method:'get',
+  url:'https://fastly.jsdelivr.net/gh/China-Frp-Union/cfu-list/list.json'
+}).then((res)=>{
+
+  Lists.value = res.data
+})
 console.log(Lists);
 
 
