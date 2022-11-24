@@ -6,16 +6,16 @@
         "url": "https://www.openfrp.net"
     },
     {
-        "name": "TestFrp",
+        "name": "StarryFrp 星空内网穿透",
         "description": "内网穿透工具",
-        "logo_url": "",
-        "url": ""
+        "logo_url": "https://cdn.starryfrp.com/images/xk-logo.png",
+        "url": "https://frp.starryfrp.com"
     },
     {
-        "name": "TestFrp",
+        "name": "Mr FRP 明日内网穿透",
         "description": "内网穿透工具",
-        "logo_url": "",
-        "url": ""
+        "logo_url": "https://mrfrp.cn/logo.jpg",
+        "url": "https://mrfrp.cn"
     },
     {
         "name": "TestFrp",

@@ -5,7 +5,7 @@
       <n-layout>
         <n-layout-content content-style="padding: 24px;">
           <n-alert title="Info" type="info" closable>
-            欢迎来到Frp联盟链界面
+            欢迎来到Frp联盟链界面，这些内容排名<b>不分先后</b>，欢迎尝试其他友商。
           </n-alert>
           <br />
           <n-card title="关于Frp内网穿透联盟" size="medium">
