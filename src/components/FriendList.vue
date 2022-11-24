@@ -23,7 +23,7 @@ import axios from 'axios'
 const Lists = ref([])
 axios({
   method:'get',
-  url:'https://fastly.jsdelivr.net/gh/China-Frp-Union/cfu-list/list.json'
+  url:'https://ghproxy.com/https://raw.githubusercontent.com/China-Frp-Union/cfu-list/main/list.json'
 }).then((res)=>{
 
   Lists.value = res.data
