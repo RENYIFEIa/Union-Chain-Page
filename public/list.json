@@ -22,6 +22,12 @@
         "description": "半公益，稳定，无限带宽/隧道，高可用的内网穿透，免费节点不限流量，付费节点价格低廉",
         "logo_url": "https://panel.mefrp.com/assets/lae-dark.png",
         "url": "https://www.mefrp.com"
+    },
+    {
+        "name": "MirrorEdge(ME Frp) 镜缘映射于莱云",
+        "description": "半公益，稳定，无限带宽/隧道，高可用的内网穿透，免费节点不限流量，付费节点价格低廉",
+        "logo_url": "https://dash.laecloud.com/assets/lae-dark.png",
+        "url": "https://dash.laecloud.com"
     },{
         "name": "TestFrp",
         "description": "内网穿透工具",
