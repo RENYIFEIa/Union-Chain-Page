@@ -11,7 +11,7 @@
 </template>
 
 <script setup>
-
+import { NLayoutHeader, NGradientText } from 'naive-ui'
 </script>
 
 <style>
