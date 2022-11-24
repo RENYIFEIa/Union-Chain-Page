@@ -1,6 +1,6 @@
 {
-  "name": "frp-onion",
-  "version": "0.0.0",
+  "name": "frp-union",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
