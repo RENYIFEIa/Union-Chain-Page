@@ -35,6 +35,9 @@ axios({
 }).then((res) => {
 
     Lists.value = res.data
+    const jsonData = res.data;
+    const linksr = ref([]) 
+    linksr.value = jsonData.sort(() => Math.random() - 0.5);
 })
 console.log(Lists);
 
