@@ -31,7 +31,7 @@ import axios from 'axios'
 const Lists = ref([])
 axios({
     method: 'get',
-    url: 'https://ghproxy.com/https://raw.githubusercontent.com/China-Frp-Union/cfu-list/main/list.json'
+    url: 'https://mecdn.mcserverx.com/gh/China-Frp-Union/cfu-list/main/list.json'
 }).then((res) => {
 
     Lists.value = res.data
