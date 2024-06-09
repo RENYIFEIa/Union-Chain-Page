@@ -25,13 +25,13 @@
 </template>
 
 <script setup>
-import { ref } from 'vue'
-import { NSpace, NAvatar, NCard, NGi, NGrid, } from 'naive-ui'
-import axios from 'axios'
+import axios from 'axios';
+import { NAvatar, NCard, NGi, NGrid, NSpace, } from 'naive-ui';
+import { ref } from 'vue';
 const Lists = ref([])
 axios({
     method: 'get',
-    url: 'https://mecdn.mcserverx.com/gh/China-Frp-Union/cfu-list/main/list.json'
+    url: 'https://mecdn.mcserverx.com/static/cfu/list.json'
 }).then((res) => {
 
     Lists.value = res.data
