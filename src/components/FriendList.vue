@@ -14,7 +14,7 @@
                             官网地址： <br /> {{ item.url }}
                         </template>
                         <template #action>
-                            CFU识别码: {{ item.code }}
+                            万江备案号: {{ item.code }}
                         </template>
 
                     </n-card>
@@ -31,7 +31,7 @@ import { ref } from 'vue';
 const Lists = ref([])
 axios({
     method: 'get',
-    url: 'https://mecdn.mcserverx.com/static/cfu/list.json'
+    url: 'https://new.ffggwj.cn/webfile/wjfu/list.json'
 }).then((res) => {
 
     Lists.value = res.data
