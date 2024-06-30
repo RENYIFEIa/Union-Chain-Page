@@ -3,7 +3,7 @@
         <div class="navigation">
             <div class="siteName" :theme-overrides="{ common: { fontWeightStrong: '600' } }">
                 <n-gradient-text type="info">
-                    Frp内网穿透联盟
+                    万江备案联盟
                 </n-gradient-text>
             </div>
         </div>
